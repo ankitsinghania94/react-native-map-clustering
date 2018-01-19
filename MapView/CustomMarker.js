@@ -139,7 +139,9 @@ export default class CustomMarker extends Component {
                                 fontSize: textSize,
                                 backgroundColor: 'transparent',
                                 color: clusterColor,
-                                fontWeight: 'bold'
+                                fontWeight: 'bold',
+                                fontFamily: GLOBAL.clusterTextFontFamily,
+                                paddingBottom: GLOBAL.clusterTextPaddingBottom
                             }}
                         >
                             {textForCluster}
@@ -165,7 +167,9 @@ export default class CustomMarker extends Component {
                                 fontSize: textSize,
                                 backgroundColor: 'transparent',
                                 color: clusterColor,
-                                fontWeight: 'bold'
+                                fontWeight: 'bold',
+                                fontFamily: GLOBAL.clusterTextFontFamily,
+                                paddingBottom: GLOBAL.clusterTextPaddingBottom
                             }}
                         >
                             {textForCluster}
@@ -178,13 +182,13 @@ export default class CustomMarker extends Component {
                         style={{
                             borderRadius: markerWidth,
                             position: 'relative',
-                            backgroundColor: GLOBAL.clusterColor,
+                            backgroundColor: "red",
                             width: markerWidth,
                             height: markerHeight,
                             borderWidth: GLOBAL.clusterBorderWidth,
                             borderColor: GLOBAL.clusterBorderColor,
                             justifyContent: 'center',
-                            alignItems: 'center'
+                            alignItems: 'center',   
                         }}
                     >
                         <Text
@@ -193,7 +197,9 @@ export default class CustomMarker extends Component {
                                 fontSize: textSize,
                                 backgroundColor: 'transparent',
                                 color: clusterColor,
-                                fontWeight: 'bold'
+                                fontWeight: 'bold',
+                                fontFamily: GLOBAL.clusterTextFontFamily,
+                                paddingBottom: GLOBAL.clusterTextPaddingBottom
                             }}
                         >
                             {textForCluster}

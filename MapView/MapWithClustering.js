@@ -184,6 +184,8 @@ export default class MapWithClustering extends Component {
         GLOBAL.clusterTextSize = this.props.clusterTextSize;
         GLOBAL.clusterBorderColor = this.props.clusterBorderColor;
         GLOBAL.clusterBorderWidth = this.props.clusterBorderWidth;
+        GLOBAL.clusterTextFontFamily = this.props.clusterTextFontFamily;
+        GLOBAL.clusterTextPaddingBottom = this.props.clusterTextPaddingBottom;
 
         return (
             <MapView
